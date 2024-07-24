@@ -1,0 +1,15 @@
+Script started on 2024-02-17 18:18:33-08:00 [TERM="xterm" TTY="/dev/pts/41" COLUMNS="158" LINES="42"]
+]0;youssefboujebha@ecs-pa-coding1:~/csc60/lab2[?2004h[youssefboujebha@ecs-pa-coding1 lab2]$ alpine[2Pexitscript YoussefBoujebha_lab1.txtvim .vimrc[K[6Pexitcat .vimrcnano lab07.asm[4Pcat .vimrc[6Pexitvim .vimrcscript YoussefBoujebha_lab1.txtexit[Kalpine[Kalpine[2Pexitscript YoussefBoujebha_lab1.txtvim .vimrc[Kscript YoussefBoujebha_lab1.txtexit[Kalpine[Kgcc lab2.c
+[?2004l]0;youssefboujebha@ecs-pa-coding1:~/csc60/lab2[?2004h[youssefboujebha@ecs-pa-coding1 lab2]$ ./a.out
+[?2004l
+Lab 2. 
+
+Hello World.
+Hi, Youssef Boujebha
+
+Kid, you'll move mountains! Today is your day! Your mountain is waiting. So get on your way! -Dr.Suess
+
+]0;youssefboujebha@ecs-pa-coding1:~/csc60/lab2[?2004h[youssefboujebha@ecs-pa-coding1 lab2]$ exit
+[?2004lexit
+
+Script done on 2024-02-17 18:19:55-08:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,23 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+// Youssef Boujebha
+#include <stdio.h>
+
+int main()
+{
+   int choice = 0;
+printf("Enter Choice (1 - 4):\n");
+printf("1:Start Game\n");
+printf("2:Resume Game\n");
+printf("3:Settings\n");
+printf("4:Exit to desktop\n");
+scanf("%d", &choice);
+printf("\n\nYou chose option #%d", choice);
+
+    return 0;
+}

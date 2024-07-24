@@ -1,0 +1,38 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+// Youssef Boujebha
+#include <stdio.h>
+
+int main()
+{
+   int choice = 0;
+printf("Enter Choice (1 - 5):\n");
+printf("1:Add item\n");
+printf("2:Search item\n");
+printf("3:Delete item\n");
+printf("4:Save Database to File\n");
+printf("5:Exit Database\n");
+scanf("%d", &choice);
+printf("\n\nYou chose option #%d", choice);
+if (choice == 1){
+    printf("\nAdded item to database");
+}else if(choice == 2){
+    printf("\nSearched item in database");
+}else if(choice == 3){
+    printf("\nDeleted item from database");
+}else if(choice == 4){
+    printf("\nSaved database to file");
+}else if(choice == 5){
+    printf("\nExited Database");
+}else if(choice >5){
+    printf("\nI'm sorry, I don't understand your imput");
+}
+
+
+    return 0;
+}

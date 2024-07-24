@@ -1,0 +1,50 @@
+#Youssef Boujebha
+# Lab 3, 10/23/2023
+
+.intel_syntax noprefix
+.data
+
+Items:
+
+
+#Youssef Boujebha Lab 3 Vending Machine
+.intel_syntax noprefix .data Bertie: #Each item and how much they cost
+	.ascii "1. Bertie Bott's Every Flavor Sliders (23 Knuts)\n\0" Cauldron:
+	.ascii "2. Cauldron Cakes (37 Knuts)\n\0" Pumpkin:
+	.ascii "3. Pumpkin Pasties (74 Knuts)\n\0" Cancel:
+	.ascii "4. Cancel the order (0 Knuts)\n\0" Names: # .quads for each item
+	.quad Bertie
+	.quad Cauldron
+	.quad Pumpkin
+	.quad Cancel Costs: # the cost of each item
+	.quad 23
+	.quad 37
+	.quad 74
+	.quad 0 MoneyIn:
+	.quad 0 MoneyOut:
+	.quad 0 Prompt1:
+	.ascii "Enter your selection:\n\0" Selection:
+	.ascii "You selected: \n\0" Payment:
+	.ascii "\nHow many Knuts are you feeding it? \n\0" .text .global _start _start:
+			#the start of the program
+ lea rdx, Bertie
+ call PrintZString
+ lea rdx, Cauldron
+ call PrintZString
+ lea rdx, Pumpkin
+ call PrintZString
+ lea rdx, Cancel
+ call PrintZString
+ lea rdx, Prompt1
+ call PrintZString
+ call ScanInt #The prompt for the imput for the selection
+ mov rsi, rdx
+ 
+ lea rdx, Selection
+ call PrintZString
+ 
+ mov rsi,1
+ mov rdx,[Names + rsi * 8 - 1]
+ call PrintZString
+ lea rdx, Payment
+ call P

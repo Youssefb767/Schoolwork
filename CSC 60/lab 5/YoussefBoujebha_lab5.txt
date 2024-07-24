@@ -1,0 +1,18 @@
+Script started on 2024-03-13 12:39:06-07:00 [TERM="xterm" TTY="/dev/pts/17" COLUMNS="156" LINES="42"]
+]0;youssefboujebha@ecs-pa-coding1:~/csc60/lab 5[?2004h[youssefboujebha@ecs-pa-coding1 lab 5]$ gcc -lm lab5.c
+[?2004l]0;youssefboujebha@ecs-pa-coding1:~/csc60/lab 5[?2004h[youssefboujebha@ecs-pa-coding1 lab 5]$ ./a.out
+[?2004l]0;youssefboujebha@ecs-pa-coding1:~/csc60/lab 5[?2004h[youssefboujebha@ecs-pa-coding1 lab 5]$ cat lab5.txt
+[?2004l
+Youssef Boujebha.  Lab 5.
+
+            Number      Perimeter      Area Of  
+ Radius    Of Sides    Of Polygon      Polygon  
+--------   --------   ------------   ----------- 
+   3.000     4.000         24.000        18.000
+    5.000    14.200         60.802        76.002
+   40.000     9.000        462.807      4628.071
+   50.000    10.000        587.785      7347.316
+ ]0;youssefboujebha@ecs-pa-coding1:~/csc60/lab 5[?2004h[youssefboujebha@ecs-pa-coding1 lab 5]$ exit
+[?2004lexit
+
+Script done on 2024-03-13 12:40:00-07:00 [COMMAND_EXIT_CODE="0"]
